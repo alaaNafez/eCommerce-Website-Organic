@@ -169,6 +169,12 @@ body {
 
 .btn-primary:is(:hover, :focus) { --bg-color: var(--green-pigment); }
 
+.section { padding-block: var(--section-padding); }
+
+.h3 {
+  font-family: var(--ff-playfair-display);
+  font-size: var(--fs-4);
+}
 
 /* HEADER */
 
