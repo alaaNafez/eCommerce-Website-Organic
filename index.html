@@ -2,804 +2,1379 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />  
-       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- custom css link -->
-     <link rel="stylesheet" href="./assets/css/main.css">
-     <link rel="stylesheet" href="./assets/css/style.css">
-     <!-- google font link -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="" rel="stylesheets">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="" rel="stylesheets" />
     <title>Organic - Quality organic fruit & vegetables.</title>
   </head>
   <body>
     <!-- #Header -->
-      <header class="header" data-header>
-
-    <div class="top-bar">
-      <div class="container">
-        <p>Free shipping for all order of $105</p>
+    <header class="header" data-header>
+      <div class="top-bar">
+        <div class="container">
+          <p>Free shipping for all order of $105</p>
+        </div>
       </div>
-    </div>
 
-    <div class="nav-wrapper">
-      <div class="container">
+      <div class="nav-wrapper">
+        <div class="container">
+          <h1 class="h1">
+            <a href="./index.html" class="logo"
+              >Organ<span class="span">ica</span></a
+            >
+          </h1>
 
-        <h1 class="h1">
-          <a href="./index.html" class="logo">Organ<span class="span">ica</span></a>
-        </h1>
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
 
-        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-          <ion-icon name="menu-outline"></ion-icon>
+          <nav class="navbar" data-navbar>
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <ul class="navbar-list">
+              <li><a href="./index.html" class="navbar-link">Home</a></li>
+              <li><a href="./index.html" class="navbar-link">About</a></li>
+              <li><a href="./index.html" class="navbar-link">Shop</a></li>
+              <li><a href="./index.html" class="navbar-link">Blog</a></li>
+              <li><a href="./index.html" class="navbar-link">Products</a></li>
+              <li><a href="./index.html" class="navbar-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-action">
+            <div class="search-wrapper" data-search-wrapper>
+              <button
+                class="header-action-btn"
+                aria-label="Toggle search"
+                data-search-btn
+              >
+                <ion-icon name="search-outline" class="search-icon"></ion-icon>
+                <ion-icon name="close-outline" class="close-icon"></ion-icon>
+              </button>
+
+              <div class="input-wrapper">
+                <input
+                  type="search"
+                  name="search"
+                  placeholder="Search here"
+                  class="search-input"
+                />
+
+                <button class="search-submit" aria-label="Submit search">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <button
+              class="header-action-btn"
+              aria-label="Open whishlist"
+              data-panel-btn="whishlist"
+            >
+              <ion-icon name="heart-outline"></ion-icon>
+
+              <data class="btn-badge" value="3">03</data>
+            </button>
+
+            <button
+              class="header-action-btn"
+              aria-label="Open shopping cart"
+              data-panel-btn="cart"
+            >
+              <ion-icon name="basket-outline"></ion-icon>
+
+              <data class="btn-badge" value="2">02</data>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Aside -->
+    <aside class="aside">
+      <div class="side-panel" data-side-panel="whishlist">
+        <button
+          class="panel-close-btn"
+          aria-label="Close whishlist"
+          data-panel-btn="whishlist"
+        >
+          <ion-icon name="close-outline"></ion-icon>
         </button>
 
-        <nav class="navbar" data-navbar>
+        <ul class="panel-list">
+          <li class="panel-item">
+            <a href="./product-details.html" class="panel-card">
+              <figure class="item-banner">
+                <img
+                  src="./assets/images/product-small-1.jpg"
+                  width="46"
+                  height="46"
+                  loading="lazy"
+                  alt="Bright Side Vegetarian"
+                />
+              </figure>
 
-          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
+              <div>
+                <p class="item-title">Bright Side Vegetarian</p>
 
-          <ul class="navbar-list">
-          <li><a href="./index.html" class="navbar-link">Home</a></li>
-          <li><a href="./index.html" class="navbar-link">About</a></li>
-           <li><a href="./index.html" class="navbar-link">Shop</a></li>
-             <li><a href="./index.html" class="navbar-link">Blog</a></li>
-             <li><a href="./index.html" class="navbar-link">Products</a></li>
-               <li><a href="./index.html" class="navbar-link">Contact</a></li>
-        </ul>
-      </nav>
-     <div class="header-action">
+                <span class="item-value">$20.15x1</span>
+              </div>
 
-          <div class="search-wrapper" data-search-wrapper>
-
-            <button class="header-action-btn" aria-label="Toggle search" data-search-btn>
-              <ion-icon name="search-outline" class="search-icon"></ion-icon>
-              <ion-icon name="close-outline" class="close-icon"></ion-icon>
-            </button>
-
-            <div class="input-wrapper">
-              <input type="search" name="search" placeholder="Search here" class="search-input">
-
-              <button class="search-submit" aria-label="Submit search">
-                <ion-icon name="search-outline"></ion-icon>
+              <button class="item-close-btn" aria-label="Remove item">
+                <ion-icon name="close-outline"></ion-icon>
               </button>
-            </div>
+            </a>
+          </li>
 
-          </div>
+          <li class="panel-item">
+            <a href="./product-details.html" class="panel-card">
+              <figure class="item-banner">
+                <img
+                  src="./assets/images/product-small-2.jpg"
+                  width="46"
+                  height="46"
+                  loading="lazy"
+                  alt="Eco Vegetable"
+                />
+              </figure>
 
-          <button class="header-action-btn" aria-label="Open whishlist" data-panel-btn="whishlist">
-            <ion-icon name="heart-outline"></ion-icon>
+              <div>
+                <p class="item-title">Eco Vegetable</p>
 
-            <data class="btn-badge" value="3">03</data>
-          </button>
+                <span class="item-value">$13.25x2</span>
+              </div>
 
-          <button class="header-action-btn" aria-label="Open shopping cart" data-panel-btn="cart">
-            <ion-icon name="basket-outline"></ion-icon>
+              <button class="item-close-btn" aria-label="Remove item">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </a>
+          </li>
 
-            <data class="btn-badge" value="2">02</data>
-          </button>
+          <li class="panel-item">
+            <a href="./product-details.html" class="panel-card">
+              <figure class="item-banner">
+                <img
+                  src="./assets/images/product-small-3.jpg"
+                  width="46"
+                  height="46"
+                  loading="lazy"
+                  alt="House of Veggies"
+                />
+              </figure>
 
+              <div>
+                <p class="item-title">House of Veggies</p>
+
+                <span class="item-value">$20.15x1</span>
+              </div>
+
+              <button class="item-close-btn" aria-label="Remove item">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </a>
+          </li>
+        </ul>
+
+        <div class="subtotal">
+          <p class="subtotal-text">Subtotal:</p>
+
+          <data class="subtotal-value" value="215.14">$215.14</data>
         </div>
 
-      </div>
-    </div>
-
-  </header>
- <!-- Aside -->
-     <aside class="aside">
-
-    <div class="side-panel" data-side-panel="whishlist">
-
-      <button class="panel-close-btn" aria-label="Close whishlist" data-panel-btn="whishlist">
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
-
-      <ul class="panel-list">
-
-        <li class="panel-item">
-          <a href="./product-details.html" class="panel-card">
-
-            <figure class="item-banner">
-              <img src="./assets/images/product-small-1.jpg" width="46" height="46" loading="lazy"
-                alt="Bright Side Vegetarian">
-            </figure>
-
-            <div>
-              <p class="item-title">Bright Side Vegetarian</p>
-
-              <span class="item-value">$20.15x1</span>
-            </div>
-
-            <button class="item-close-btn" aria-label="Remove item">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </a>
-        </li>
-
-        <li class="panel-item">
-          <a href="./product-details.html" class="panel-card">
-
-            <figure class="item-banner">
-              <img src="./assets/images/product-small-2.jpg" width="46" height="46" loading="lazy" alt="Eco Vegetable">
-            </figure>
-
-            <div>
-              <p class="item-title">Eco Vegetable</p>
-
-              <span class="item-value">$13.25x2</span>
-            </div>
-
-            <button class="item-close-btn" aria-label="Remove item">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </a>
-        </li>
-
-        <li class="panel-item">
-          <a href="./product-details.html" class="panel-card">
-
-            <figure class="item-banner">
-              <img src="./assets/images/product-small-3.jpg" width="46" height="46" loading="lazy"
-                alt="House of Veggies">
-            </figure>
-
-            <div>
-              <p class="item-title">House of Veggies</p>
-
-              <span class="item-value">$20.15x1</span>
-            </div>
-
-            <button class="item-close-btn" aria-label="Remove item">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </a>
-        </li>
-
-      </ul>
-
-      <div class="subtotal">
-        <p class="subtotal-text">Subtotal:</p>
-
-        <data class="subtotal-value" value="215.14">$215.14</data>
+        <a href="./index.html" class="panel-btn">View Whishlist</a>
       </div>
 
-      <a href="./index.html" class="panel-btn">View Whishlist</a>
+      <div class="side-panel" data-side-panel="cart">
+        <button
+          class="panel-close-btn"
+          aria-label="Close cart"
+          data-panel-btn="cart"
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
 
-    </div>
+        <ul class="panel-list">
+          <li class="panel-item">
+            <a href="./product-details.html" class="panel-card">
+              <figure class="item-banner">
+                <img
+                  src="./assets/images/product-small-1.jpg"
+                  width="46"
+                  height="46"
+                  loading="lazy"
+                  alt="Bright Side Vegetarian"
+                />
+              </figure>
 
-    <div class="side-panel" data-side-panel="cart">
+              <div>
+                <p class="item-title">Bright Side Vegetarian</p>
 
-      <button class="panel-close-btn" aria-label="Close cart" data-panel-btn="cart">
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
+                <span class="item-value">$20.15x1</span>
+              </div>
 
-      <ul class="panel-list">
+              <button class="item-close-btn" aria-label="Remove item">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </a>
+          </li>
 
-        <li class="panel-item">
-          <a href="./product-details.html" class="panel-card">
+          <li class="panel-item">
+            <a href="./product-details.html" class="panel-card">
+              <figure class="item-banner">
+                <img
+                  src="./assets/images/product-small-2.jpg"
+                  width="46"
+                  height="46"
+                  loading="lazy"
+                  alt="Eco Vegetable"
+                />
+              </figure>
 
-            <figure class="item-banner">
-              <img src="./assets/images/product-small-1.jpg" width="46" height="46" loading="lazy"
-                alt="Bright Side Vegetarian">
-            </figure>
+              <div>
+                <p class="item-title">Eco Vegetable</p>
 
-            <div>
-              <p class="item-title">Bright Side Vegetarian</p>
+                <span class="item-value">$13.25x2</span>
+              </div>
 
-              <span class="item-value">$20.15x1</span>
-            </div>
+              <button class="item-close-btn" aria-label="Remove item">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </a>
+          </li>
+        </ul>
 
-            <button class="item-close-btn" aria-label="Remove item">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
+        <div class="subtotal">
+          <p class="subtotal-text">Subtotal:</p>
 
-          </a>
-        </li>
+          <data class="subtotal-value" value="215.14">$215.14</data>
+        </div>
 
-        <li class="panel-item">
-          <a href="./product-details.html" class="panel-card">
-
-            <figure class="item-banner">
-              <img src="./assets/images/product-small-2.jpg" width="46" height="46" loading="lazy" alt="Eco Vegetable">
-            </figure>
-
-            <div>
-              <p class="item-title">Eco Vegetable</p>
-
-              <span class="item-value">$13.25x2</span>
-            </div>
-
-            <button class="item-close-btn" aria-label="Remove item">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </a>
-        </li>
-
-      </ul>
-
-      <div class="subtotal">
-        <p class="subtotal-text">Subtotal:</p>
-
-        <data class="subtotal-value" value="215.14">$215.14</data>
+        <a href="./index.html" class="panel-btn">View Cart</a>
       </div>
+    </aside>
 
-      <a href="./index.html" class="panel-btn">View Cart</a>
-
-    </div>
-
-  </aside>
-
-  <main>
-    <article>
+    <main>
+      <article>
         <!-- #HERO -->
 
-      <section class="hero">
-        <div class="container">
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">25% off all products.</p>
 
-          <div class="hero-content">
+              <h2 class="h1 hero-title">
+                Qualityful <span class="span">organic</span> fruit &
+                <span class="span">vegetables.</span>
+              </h2>
 
-            <p class="hero-subtitle">25% off all products.</p>
+              <p class="hero-text">
+                It has survived not only five centuries also there leaped.
+              </p>
 
-            <h2 class="h1 hero-title">
-              Qualityful <span class="span">organic</span>
-              fruit & <span class="span">vegetables.</span>
-            </h2>
+              <a href="./index.html" class="btn btn-primary">
+                <span class="span">Shop Now</span>
 
-            <p class="hero-text">
-              It has survived not only five centuries also there leaped.
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="603"
+                height="634"
+                loading="lazy"
+                alt="Vegetables"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!--  #SERVICE -->
+
+        <section class="section service">
+          <div class="container">
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="./assets/images/service-icon-1.png"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    alt="Truck icon"
+                  />
+                </div>
+
+                <h3 class="h3 item-title">Free Shipping</h3>
+              </li>
+
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="./assets/images/service-icon-2.png"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    alt="Payment card icon"
+                  />
+                </div>
+
+                <h3 class="h3 item-title">Safe Payment</h3>
+              </li>
+
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="./assets/images/service-icon-3.png"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    alt="Helpline icon"
+                  />
+                </div>
+
+                <h3 class="h3 item-title">24/7 Support</h3>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--  #OFFERS -->
+
+        <section class="section offers">
+          <div class="container">
+            <ul class="offers-list has-scrollbar">
+              <li class="offers-item">
+                <a href="./index.html" class="offers-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/offer-1.png"
+                      width="292"
+                      height="230"
+                      loading="lazy"
+                      alt="Fresh vegetables package"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Up To 25% Off</p>
+
+                    <h3 class="h3 card-title">Fresh vegetables package.</h3>
+
+                    <div class="btn btn-primary">Shop Now</div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="offers-item">
+                <a href="./index.html" class="offers-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/offer-2.png"
+                      width="336"
+                      height="244"
+                      loading="lazy"
+                      alt="Healthy & fresh beef"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Up To 25% Off</p>
+
+                    <h3 class="h3 card-title">Healthy & fresh beef.</h3>
+
+                    <div class="btn btn-primary">Shop Now</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section product">
+          <div class="container">
+            <p class="section-subtitle">-- Organic Products --</p>
+
+            <h2 class="h2 section-title">All Organic Products</h2>
+
+            <ul class="filter-list">
+              <li>
+                <button class="filter-btn active">
+                  <img
+                    src="./assets/images/filter-1.png"
+                    width="20"
+                    alt=""
+                    class="default"
+                  />
+
+                  <img
+                    src="./assets/images/filter-1-active.png"
+                    width="20"
+                    alt=""
+                    class="color"
+                  />
+
+                  <p class="filter-text">Fresh Vegetables</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="./assets/images/filter-2.png"
+                    width="20"
+                    alt=""
+                    class="default"
+                  />
+
+                  <img
+                    src="./assets/images/filter-2-active.png"
+                    width="20"
+                    alt=""
+                    class="color"
+                  />
+
+                  <p class="filter-text">Fish & Meat</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="./assets/images/filter-3.png"
+                    width="20"
+                    alt=""
+                    class="default"
+                  />
+
+                  <img
+                    src="./assets/images/filter-3-active.png"
+                    width="20"
+                    alt=""
+                    class="color"
+                  />
+
+                  <p class="filter-text">Healthy Fruit</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="./assets/images/filter-1.png"
+                    width="20"
+                    alt=""
+                    class="default"
+                  />
+
+                  <img
+                    src="./assets/images/filter-1-active.png"
+                    width="20"
+                    alt=""
+                    class="color"
+                  />
+
+                  <p class="filter-text">Dairy Products</p>
+                </button>
+              </li>
+            </ul>
+
+            <ul class="grid-list">
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-1.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Fresh Orangey"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-2.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="key Lime"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">key Lime</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-3.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Fresh Watermelon"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Watermelon</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-4.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Visual matches"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Visual matches</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-5.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Pomagranate Fruit"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Pomagranate Fruit</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-6.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Red onion"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Red onion</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-7.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Lens Results Broccoli"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Lens Results Broccoli</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/product-8.png"
+                      width="189"
+                      height="189"
+                      loading="lazy"
+                      alt="Lens Results Spinach"
+                    />
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Lens Results Spinach</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- # CTA -->
+
+        <section class="cta">
+          <div class="container">
+            <p class="section-subtitle">Summer Offer</p>
+
+            <h2 class="h2 section-title">Up To 50% Off All Product.</h2>
+
+            <p class="cta-text">
+              It has survived not only five centuries also leaped.
             </p>
 
             <a href="./index.html" class="btn btn-primary">
-              <span class="span">Shop Now</span>
+              <span>Shop Now</span>
 
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
             </a>
-
           </div>
+        </section>
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="603" height="634" loading="lazy" alt="Vegetables"
-              class="w-100">
-          </figure>
+        <!--  #TOP PRODUCT   -->
 
-        </div>
-      </section>
+        <section class="section top-product">
+          <div class="container">
+            <p class="section-subtitle">-- Organic Food --</p>
 
-       <!--  #SERVICE -->
+            <h2 class="h2 section-title">Trendy Products</h2>
 
-      <section class="section service">
-        <div class="container">
+            <ul class="top-product-list grid-list">
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-1.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Fresh Orangey"
+                    />
 
-          <ul class="service-list">
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-            <li class="service-item">
-              <div class="item-icon">
-                <img src="./assets/images/service-icon-1.png" width="40" height="40" loading="lazy" alt="Truck icon">
-              </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-              <h3 class="h3 item-title">Free Shipping</h3>
-            </li>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-            <li class="service-item">
-              <div class="item-icon">
-                <img src="./assets/images/service-icon-2.png" width="40" height="40" loading="lazy"
-                  alt="Payment card icon">
-              </div>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-              <h3 class="h3 item-title">Safe Payment</h3>
-            </li>
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-            <li class="service-item">
-              <div class="item-icon">
-                <img src="./assets/images/service-icon-3.png" width="40" height="40" loading="lazy" alt="Helpline icon">
-              </div>
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Fresh Orangey</a>
+                    </h3>
 
-              <h3 class="h3 item-title">24/7 Support</h3>
-            </li>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-          </ul>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-        </div>
-      </section>
-
-          <!--  #OFFERS -->
-
-      <section class="section offers">
-        <div class="container">
-
-          <ul class="offers-list has-scrollbar">
-
-            <li class="offers-item">
-              <a href="./index.html" class="offers-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/offer-1.png" width="292" height="230" loading="lazy"
-                    alt="Fresh vegetables package" class="w-100">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Up To 25% Off</p>
-
-                  <h3 class="h3 card-title">Fresh vegetables package.</h3>
-
-                  <div class="btn btn-primary">Shop Now</div>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="offers-item">
-              <a href="./index.html" class="offers-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/offer-2.png" width="336" height="244" loading="lazy"
-                    alt="Healthy & fresh beef" class="w-100">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Up To 25% Off</p>
-
-                  <h3 class="h3 card-title">Healthy & fresh beef.</h3>
-
-                  <div class="btn btn-primary">Shop Now</div>
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
- <section class="section product">
-        <div class="container">
-
-          <p class="section-subtitle"> -- Organic Products --</p>
-
-          <h2 class="h2 section-title">All Organic Products</h2>
-
-          <ul class="filter-list">
-
-            <li>
-              <button class="filter-btn active">
-                <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
-
-                <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
-
-                <p class="filter-text">Fresh Vegetables</p>
-              </button>
-            </li>
-
-            <li>
-              <button class="filter-btn">
-                <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
-
-                <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
-
-                <p class="filter-text">Fish & Meat</p>
-              </button>
-            </li>
-
-            <li>
-              <button class="filter-btn">
-                <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
-
-                <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
-
-                <p class="filter-text">Healthy Fruit</p>
-              </button>
-            </li>
-
-            <li>
-              <button class="filter-btn">
-                <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
-
-                <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
-
-                <p class="filter-text">Dairy Products</p>
-              </button>
-            </li>
-
-          </ul>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="product-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/product-1.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
-
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
-
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
-
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Fresh Orangey</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-2.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="key Lime"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-2.png" width="189" height="189" loading="lazy" alt="key Lime">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">key Lime</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">key Lime</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-3.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Fresh Watermelon"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-3.png" width="189" height="189" loading="lazy"
-                    alt="Fresh Watermelon">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Fresh Watermelon</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Fresh Watermelon</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-4.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Stobery"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-4.png" width="189" height="189" loading="lazy" alt="Visual matches">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Stobery</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Visual matches</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-5.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Pomagranate Fruit"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-5.png" width="189" height="189" loading="lazy"
-                    alt="Pomagranate Fruit">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Pomagranate Fruit</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Pomagranate Fruit</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-6.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lens Results Broccoli"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-6.png" width="189" height="189" loading="lazy" alt="Red onion">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Lens Results Broccoli</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Red onion</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-7.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lens Results Spinach"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-7.png" width="189" height="189" loading="lazy"
-                    alt="Lens Results Broccoli">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Lens Results Spinach</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Lens Results Broccoli</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-8.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lorigun Artificial"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
-                </div>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
 
-                <button class="btn btn-primary">Add to Cart</button>
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
 
-              </div>
-            </li>
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
 
-            <li>
-              <div class="product-card">
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/product-8.png" width="189" height="189" loading="lazy"
-                    alt="Lens Results Spinach">
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Lorigun Artificial</a>
+                    </h3>
 
-                  <div class="btn-wrapper">
-                    <button class="product-btn" aria-label="Add to Whishlist">
-                      <ion-icon name="heart-outline"></ion-icon>
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
 
-                      <div class="tooltip">Add to Whishlist</div>
-                    </button>
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
 
-                    <button class="product-btn" aria-label="Quick View">
-                      <ion-icon name="eye-outline"></ion-icon>
-
-                      <div class="tooltip">Quick View</div>
-                    </button>
+                    <button class="btn btn-primary">Add to Cart</button>
                   </div>
-                </figure>
-
-                <div class="rating-wrapper">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
                 </div>
+              </li>
 
-                <h3 class="h4 card-title">
-                  <a href="./product-details.html">Lens Results Spinach</a>
-                </h3>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/top-product-9.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Leaf lettuce"
+                    />
 
-                <div class="price-wrapper">
-                  <del class="del">$75.00</del>
+                    <div class="btn-wrapper">
+                      <button class="product-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
 
-                  <data class="price" value="85.00">$85.00</data>
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+
+                      <button class="product-btn" aria-label="Quick View">
+                        <ion-icon name="eye-outline"></ion-icon>
+
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Leaf lettuce</a>
+                    </h3>
+
+                    <div class="price-wrapper">
+                      <del class="del">$75.00</del>
+
+                      <data class="price" value="85.00">$85.00</data>
+                    </div>
+
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
 
-                <button class="btn btn-primary">Add to Cart</button>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-<!-- # CTA -->
-
-<section class="cta">
-        <div class="container">
-
-          <p class="section-subtitle">Summer Offer</p>
-
-          <h2 class="h2 section-title">Up To 50% Off All Product.</h2>
-
-          <p class="cta-text">
-            It has survived not only five centuries also leaped.
-          </p>
-
-          <a href="./index.html" class="btn btn-primary">
-            <span>Shop Now</span>
-
-            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-          </a>
-
-        </div>
-      </section>
-    </article>
-  </main>
-  
     <script src="./assets/js/script.js"></script>
-     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
